@@ -3,11 +3,11 @@ sudo apt upgrade -y
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 
-> update-deb
+> update-debian
 
 
-echo "sudo apt update" >> update-deb
-echo "sudo apt upgrade -y" >> update-deb
-echo "sudo apt full-upgrade -y" >> update-deb
-echo "sudo apt autoremove -y" >> update-deb
-echo "sudo reboot" >> update-deb
+echo "sudo apt update" >> update-debian
+echo "sudo apt upgrade -y" >> update-debian
+echo "sudo apt full-upgrade -y" >> update-debian
+echo "sudo apt autoremove -y" >> update-debian
+echo "sudo reboot" >> update-debian
