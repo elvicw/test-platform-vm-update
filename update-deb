@@ -5,6 +5,7 @@ sudo apt autoremove -y
 
 > update-deb
 
+
 echo "sudo apt update" >> update-deb
 echo "sudo apt upgrade -y" >> update-deb
 echo "sudo apt full-upgrade -y" >> update-deb
