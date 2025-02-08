@@ -1,1 +1,2 @@
-sudo sed -i 's/stretch/buster/g' /etc/apt/sources.list;sudo rm -f /etc/apt/sources.list.d/*;sudo apt update;sudo apt upgrade -y;sudo apt full-upgrade -y;sudo apt autoremove -y;sudo reboot
+sudo sed -i 's/stretch/buster/g' /etc/apt/sources.list
+sudo rm -f /etc/apt/sources.list.d/*;sudo apt update
