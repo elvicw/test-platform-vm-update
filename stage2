@@ -1,2 +1,2 @@
 sudo sed -i 's/stretch/buster/g' /etc/apt/sources.list
-sudo rm -f /etc/apt/sources.list.d/*;sudo apt update
+sudo rm -f /etc/apt/sources.list.d/*
